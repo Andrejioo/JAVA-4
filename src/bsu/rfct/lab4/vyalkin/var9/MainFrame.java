@@ -51,6 +51,7 @@ public class MainFrame extends JFrame {
             }
         };
         fileMenu.add(openGraphicsAction);
+
         JMenu graphicsMenu = new JMenu("График");
         menuBar.add(graphicsMenu);
         Action showAxisAction = new AbstractAction("Показывать оси координат") {

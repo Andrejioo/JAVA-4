@@ -103,7 +103,7 @@ public class GraphicsDisplay extends JPanel {
 
     protected void paintGraphics(Graphics2D canvas) {
         canvas.setStroke(graphicsStroke);
-        canvas.setColor(Color.BLACK);
+        canvas.setColor(Color.RED);
         GeneralPath graphics = new GeneralPath();
         for (int i=0; i<graphicsData.length; i++) {
             Point2D.Double point = xyToPoint(graphicsData[i][0],
